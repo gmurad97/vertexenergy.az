@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -49,6 +49,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
-$route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
+
+/*<================> System Routes <================>*/
+$route["default_controller"] = "DefaultController";
+$route["404_override"] = "ErrorController";
+$route["translate_uri_dashes"] = false;
+
+/*<================> Language Routes <================>*/
+$route["locale/(:any)"]["GET"] = "user/LanguageController/index/$1";
+
+/*<================> User Routes <================>*/
+/*<========> Home Routes <========>*/
+$route[""]["GET"] = "user/HomeController/index";
+$route["home"]["GET"] = "user/HomeController/home";
+
+
+
+
+/*<========> Blog Routes <========>*/
+$route["blog"]["GET"] = "user/BlogController/index";
+
+/*<========> Categories Routes <========>*/
+$route["categories"]["GET"] = "user/CategoriesController/index";
