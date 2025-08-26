@@ -11,15 +11,13 @@
                     <div class="description-block-global__text-block">
                         <div class="description-block-global__heading">
                             <h1 class="description-block-global__heading--title-small">
-                                - Shipping
+                                <?= $this->lang->line('shipping') ?>
                             </h1>
                             <h2 class="description-block-global__heading--title-large">
-                                Maritime Logistics & Ship Chartering
+                                <?= $this->lang->line('maritime_logistics') ?>
                             </h2>
                             <p class="description-block-global__heading--description">
-                                Vertex Energy provides reliable shipping solutions for
-                                oil products across the Black and Caspian regions, supported
-                                by trusted partners and a strong logistics network.
+                                <?= $this->lang->line('shipping_description') ?>
                             </p>
                         </div>
                     </div>
@@ -31,8 +29,8 @@
 <main class="main">
     <section class="section">
         <div class="section__heading">
-            <h1 class="section__heading--category">- Services</h1>
-            <p class="section__heading--title">Our shipping services include:</p>
+            <h1 class="section__heading--category"><?= $this->lang->line('services') ?></h1>
+            <p class="section__heading--title"><?= $this->lang->line('our_shipping_services') ?></p>
         </div>
         <div class="services-column">
             <div class="service-card">
@@ -41,7 +39,7 @@
                         <path d="M3 20h18l-2-7H5l-2 7zM5 13h14l-2-6H7l-2 6z" />
                     </svg>
                 </span>
-                <p class="service-text">Ship chartering — spot, voyage and time charter</p>
+                <p class="service-text"><?= $this->lang->line('ship_chartering') ?></p>
             </div>
             <div class="service-card">
                 <span class="service-icon">
@@ -50,7 +48,7 @@
                         <path d="M16 3h-8v4h8V3z" />
                     </svg>
                 </span>
-                <p class="service-text">Cargo handling — port coordination, loading & discharge supervision</p>
+                <p class="service-text"><?= $this->lang->line('cargo_handling') ?></p>
             </div>
             <div class="service-card">
                 <span class="service-icon">
@@ -60,7 +58,7 @@
                         <rect x="3" y="4" width="6" height="16" rx="1" />
                     </svg>
                 </span>
-                <p class="service-text">Customs & documentation — BL, LOI, insurance support</p>
+                <p class="service-text"><?= $this->lang->line('customs_documentation') ?></p>
             </div>
             <div class="service-card">
                 <span class="service-icon">
@@ -68,14 +66,14 @@
                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                     </svg>
                 </span>
-                <p class="service-text">Risk control — laytime & demurrage optimization, P&amp;I coordination</p>
+                <p class="service-text"><?= $this->lang->line('risk_control') ?></p>
             </div>
         </div>
     </section>
     <section class="section">
         <div class="section__heading">
-            <h1 class="section__heading--category">- Our Partners</h1>
-            <p class="section__heading--title">In Partnership with Many Companies</p>
+            <h1 class="section__heading--category"><?= $this->lang->line('our_partners') ?></h1>
+            <p class="section__heading--title"><?= $this->lang->line('in_partnership') ?></p>
         </div>
         <div class="owl-carousel" id="owl-carousel-partners">
             <div class="item">

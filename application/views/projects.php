@@ -11,17 +11,13 @@
                     <div class="description-block-global__text-block">
                         <div class="description-block-global__heading">
                             <h1 class="description-block-global__heading--title-small text-orange">
-                                - Projects
+                                <?= $this->lang->line('projects') ?>
                             </h1>
                             <h2 class="description-block-global__heading--title-large">
-                                Our Project Portfolio
+                                <?= $this->lang->line('project_portfolio') ?>
                             </h2>
                             <p class="description-block-global__heading--description">
-                                Explore our diverse portfolio of projects that showcase our
-                                commitment to excellence in logistics, ship chartering,
-                                and oil trading. From seamless cargo transport to successful
-                                oil trading ventures, our projects embody our dedication
-                                to professionalism, integrity, and innovation.
+                                <?= $this->lang->line('project_portfolio_description') ?>
                             </p>
                         </div>
 
@@ -40,15 +36,15 @@
                         <div class="filtering-control">
                             <div class="filtering-control__block">
                                 <button type="button" class="filtering-control__block--button" data-target="trading">
-                                    Trading
+                                    <?= $this->lang->line('trading') ?>
                                 </button>
                                 <button type="button" class="filtering-control__block--button" data-target="shipping">
-                                    Shipping
+                                    <?= $this->lang->line('shipping') ?>
                                 </button>
                             </div>
                             <div class="filtering-control__block">
                                 <button type="button" class="filtering-control__block--button" id="see_all">
-                                    See All
+                                    <?= $this->lang->line('see_all') ?>
                                 </button>
                             </div>
                         </div>
@@ -62,23 +58,20 @@
                                     <img src="<?= base_url('public/assets/content/img/trading1.jpg'); ?>" class="filtering-block__overlay--img" alt="Trading1">
                                 </div>
                                 <div class="filtering-block__header">
-                                    <h1 class="filtering-block__header--title">Project 01</h1>
+                                    <h1 class="filtering-block__header--title"><?= $this->lang->line('project_01') ?></h1>
                                     <button type="button" class="filtering-block__header--button">
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </button>
                                 </div>
                                 <div class="filtering-block__body">
                                     <p class="filtering-block__body--description">
-                                        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Sed congue interdum ligula a dignissim.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Sed lobortis orci elementum egestas lobortis. -->
+                                        <!-- Lorem ipsum placeholder -->
                                     </p>
                                 </div>
                                 <div class="filtering-block__footer">
                                     <button type="button" class="filtering-block__footer--button">
                                         <div class="filtering-block__footer--button-toggle"></div>
-                                        Trading
+                                        <?= $this->lang->line('trading') ?>
                                     </button>
                                 </div>
                             </div>
@@ -89,18 +82,17 @@
                                     <img src="<?= base_url('public/assets/content/img/ship1.jpg'); ?>" class="filtering-block__overlay-gray--img" alt="Ship1">
                                 </div>
                                 <div class="filtering-block__header">
-                                    <h1 class="filtering-block__header--title">Project 02</h1>
+                                    <h1 class="filtering-block__header--title"><?= $this->lang->line('project_02') ?></h1>
                                 </div>
                                 <div class="filtering-block__body">
                                     <p class="filtering-block__body--description">
-                                        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Sed congue interdum ligula a dignissim. -->
+                                        <!-- Lorem ipsum placeholder -->
                                     </p>
                                 </div>
                                 <div class="filtering-block__footer">
                                     <button type="button" class="filtering-block__footer--button">
                                         <div class="filtering-block__footer--button-toggle"></div>
-                                        Shipping
+                                        <?= $this->lang->line('shipping') ?>
                                     </button>
                                 </div>
                             </div>
@@ -111,18 +103,17 @@
                                     <img src="<?= base_url('public/assets/content/img/ship3.jpg'); ?>" class="filtering-block__overlay-linear-red--img" alt="Ship3">
                                 </div>
                                 <div class="filtering-block__header">
-                                    <h1 class="filtering-block__header--title">Project 03</h1>
+                                    <h1 class="filtering-block__header--title"><?= $this->lang->line('project_03') ?></h1>
                                 </div>
                                 <div class="filtering-block__body">
                                     <p class="filtering-block__body--description">
-                                        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Sed congue interdum ligula a dignissim. -->
+                                        <!-- Lorem ipsum placeholder -->
                                     </p>
                                 </div>
                                 <div class="filtering-block__footer">
                                     <button type="button" class="filtering-block__footer--button">
                                         <div class="filtering-block__footer--button-toggle"></div>
-                                        Shipping
+                                        <?= $this->lang->line('shipping') ?>
                                     </button>
                                 </div>
                             </div>
@@ -137,21 +128,20 @@
                                     <video class="filtering-block__overlay-video-gray--video" src="<?= base_url('public/assets/content/video/ship.mp4'); ?>" autoplay loop muted></video>
                                 </div>
                                 <div class="filtering-block__header">
-                                    <h1 class="filtering-block__header--title">Project 04</h1>
+                                    <h1 class="filtering-block__header--title"><?= $this->lang->line('project_04') ?></h1>
                                     <button type="button" class="filtering-block__header--button">
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </button>
                                 </div>
                                 <div class="filtering-block__body">
                                     <p class="filtering-block__body--description">
-                                        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Sed congue interdum ligula a dignissim. -->
+                                        <!-- Lorem ipsum placeholder -->
                                     </p>
                                 </div>
                                 <div class="filtering-block__footer">
                                     <button type="button" class="filtering-block__footer--button">
                                         <div class="filtering-block__footer--button-toggle"></div>
-                                        Shipping
+                                        <?= $this->lang->line('shipping') ?>
                                     </button>
                                 </div>
                             </div>
@@ -162,20 +152,17 @@
                                     <img src="<?= base_url('public/assets/content/img/ship2.jpg'); ?>" class="filtering-block__overlay-red--img" alt="Ship2">
                                 </div>
                                 <div class="filtering-block__header">
-                                    <h1 class="filtering-block__header--title">Project 05</h1>
+                                    <h1 class="filtering-block__header--title"><?= $this->lang->line('project_05') ?></h1>
                                 </div>
                                 <div class="filtering-block__body">
                                     <p class="filtering-block__body--description">
-                                        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Sed congue interdum ligula a dignissim.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Sed lobortis orci elementum egestas lobortis. -->
+                                        <!-- Lorem ipsum placeholder -->
                                     </p>
                                 </div>
                                 <div class="filtering-block__footer">
                                     <button type="button" class="filtering-block__footer--button">
                                         <div class="filtering-block__footer--button-toggle"></div>
-                                        Shipping
+                                        <?= $this->lang->line('shipping') ?>
                                     </button>
                                 </div>
                             </div>
@@ -186,18 +173,17 @@
                                     <img src="<?= base_url('public/assets/content/img/ship1.jpg'); ?>" class="filtering-block__overlay-linear-blue--img" alt="Ship3">
                                 </div>
                                 <div class="filtering-block__header">
-                                    <h1 class="filtering-block__header--title">Project 06</h1>
+                                    <h1 class="filtering-block__header--title"><?= $this->lang->line('project_06') ?></h1>
                                 </div>
                                 <div class="filtering-block__body">
                                     <p class="filtering-block__body--description">
-                                        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Sed congue interdum ligula a dignissim. -->
+                                        <!-- Lorem ipsum placeholder -->
                                     </p>
                                 </div>
                                 <div class="filtering-block__footer">
                                     <button type="button" class="filtering-block__footer--button">
                                         <div class="filtering-block__footer--button-toggle"></div>
-                                        Shipping
+                                        <?= $this->lang->line('shipping') ?>
                                     </button>
                                 </div>
                             </div>

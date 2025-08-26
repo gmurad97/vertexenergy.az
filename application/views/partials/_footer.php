@@ -1,8 +1,8 @@
 <footer class="footer">
     <section class="footer__section">
         <div class="footer__section-heading">
-            <h1 class="footer__section-heading--category">- Our Partners</h1>
-            <p class="footer__section-heading--title">In Partnership with Many Companies</p>
+            <h1 class="footer__section-heading--category"><?= $this->lang->line('footer_partners_category') ?></h1>
+            <p class="footer__section-heading--title"><?= $this->lang->line('footer_partners_title') ?></p>
         </div>
         <div class="footer__section-overlay--triangle"></div>
         <div class="owl-carousel" id="owl-carousel-partners">
@@ -38,10 +38,10 @@
                     </div>
                     <div class="footer__contact-block-info">
                         <h1 class="footer__contact-block-info--title">
-                            Full Address
+                            <?= $this->lang->line('footer_address_title') ?>
                         </h1>
                         <p class="footer__contact-block-info--description">
-                            Business Center 1, M Floor,The Meydan Hotel, Nad Al Sheba,Dubai, U.A.E.
+                            <?= $this->lang->line('footer_address_description') ?>
                         </p>
                     </div>
                 </a>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="footer__contact-block-info">
                         <h1 class="footer__contact-block-info--title">
-                            Number Phone
+                            <?= $this->lang->line('footer_phone_title') ?>
                         </h1>
                         <p class="footer__contact-block-info--description">
                             +971 58 567 1088
@@ -64,7 +64,7 @@
                     </div>
                     <div class="footer__contact-block-info">
                         <h1 class="footer__contact-block-info--title">
-                            Email
+                            <?= $this->lang->line('footer_email_title') ?>
                         </h1>
                         <p class="footer__contact-block-info--description">
                             office@vertexenergy.az
@@ -75,36 +75,30 @@
             <div class="footer__nav">
                 <div class="footer__nav-about">
                     <h1 class="footer__nav-about--title">
-                        <strong>Vertex Energy</strong>
+                        <strong><?= $this->lang->line('footer_company_name') ?></strong>
                     </h1>
                     <p class="footer__nav-about--description">
-                        Vertex Energy, founded in 2023, is your trusted partner in
-                        maritime logistics, ship chartering, and oil trading.
-                        Our mission is to provide high-quality and cost-effective solutions
-                        for transporting goods and oil products across the
-                        Black and Caspian seas. We've grown from a small company to
-                        a respected industry player, serving a diverse clientele, from small
-                        businesses to large corporations.
+                        <?= $this->lang->line('footer_company_description') ?>
                     </p>
                 </div>
                 <div class="footer__nav-navigation">
                     <div class="footer__nav-navigation--navbar">
-                        <h1 class="footer__nav-navigation--title">Navigation</h1>
+                        <h1 class="footer__nav-navigation--title"><?= $this->lang->line('footer_navigation_title') ?></h1>
                         <ul class="footer__nav-menu">
                             <li class="footer__nav-menu--item">
-                                <a href="<?= base_url('home'); ?>" class="footer__nav-menu--link <?= set_active_class(['home', ''], false, 'footer__nav-menu--link-active'); ?>">Home</a>
+                                <a href="<?= base_url('home'); ?>" class="footer__nav-menu--link <?= set_active_class(['home', ''], false, 'footer__nav-menu--link-active'); ?>"><?= $this->lang->line('nav_home') ?></a>
                             </li>
                             <li class="footer__nav-menu--item">
-                                <a href="<?= base_url('trading'); ?>" class="footer__nav-menu--link <?= set_active_class(['trading'], false, 'footer__nav-menu--link-active'); ?>">Trading</a>
+                                <a href="<?= base_url('trading'); ?>" class="footer__nav-menu--link <?= set_active_class(['trading'], false, 'footer__nav-menu--link-active'); ?>"><?= $this->lang->line('nav_trading') ?></a>
                             </li>
                             <li class="footer__nav-menu--item">
-                                <a href="<?= base_url('shipping'); ?>" class="footer__nav-menu--link <?= set_active_class(['shipping'], false, 'footer__nav-menu--link-active'); ?>">Shipping</a>
+                                <a href="<?= base_url('shipping'); ?>" class="footer__nav-menu--link <?= set_active_class(['shipping'], false, 'footer__nav-menu--link-active'); ?>"><?= $this->lang->line('nav_shipping') ?></a>
                             </li>
                             <li class="footer__nav-menu--item">
-                                <a href="<?= base_url('projects'); ?>" class="footer__nav-menu--link <?= set_active_class(['projects'], false, 'footer__nav-menu--link-active'); ?>">Projects</a>
+                                <a href="<?= base_url('projects'); ?>" class="footer__nav-menu--link <?= set_active_class(['projects'], false, 'footer__nav-menu--link-active'); ?>"><?= $this->lang->line('nav_projects') ?></a>
                             </li>
                             <li class="footer__nav-menu--item">
-                                <a href="<?= base_url('faq'); ?>" class="footer__nav-menu--link <?= set_active_class(['faq'], false, 'footer__nav-menu--link-active'); ?>">FAQ</a>
+                                <a href="<?= base_url('faq'); ?>" class="footer__nav-menu--link <?= set_active_class(['faq'], false, 'footer__nav-menu--link-active'); ?>"><?= $this->lang->line('nav_faq') ?></a>
                             </li>
                         </ul>
                     </div>
@@ -130,7 +124,7 @@
             <div class="footer__bottom-copyright">
                 <p class="footer__bottom-copyright--description">
                     &copy;
-                    <script>document.write(new Date().getFullYear());</script> Vertex Energy. All rights reserved.
+                    <script>document.write(new Date().getFullYear());</script> <?= $this->lang->line('footer_copyright') ?>
                 </p>
             </div>
         </div>
