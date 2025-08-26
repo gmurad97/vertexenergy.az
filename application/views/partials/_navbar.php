@@ -51,8 +51,8 @@
                         </a>
                     </li>
                     <li class="language__item">
-                        <a class="language__link" href="<?= base_url('locale/us'); ?>">
-                            <img class="language__img" src="<?= base_url('public/assets/langs/us.svg'); ?>" alt="EN">
+                        <a class="language__link" href="<?= base_url('locale/en'); ?>">
+                            <img class="language__img" src="<?= base_url('public/assets/langs/en.svg'); ?>" alt="EN">
                         </a>
                     </li>
                 </ul>
