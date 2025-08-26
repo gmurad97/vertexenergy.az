@@ -12,16 +12,31 @@ $lang['navbar_projects'] = 'Projects';
 $lang['navbar_faq'] = 'FAQ';
 $lang['frequently_asked_questions'] = 'Frequently Asked Questions';
 $lang['faq_description'] = 'Here you can find answers to the most common questions about our services, processes, and partnerships. If you don’t see your question here, feel free to reach out to us directly.';
-$lang['what_specialize'] = 'What Does Vertex Energy Specialize In?';
-$lang['what_specialize_body'] = 'Vertex Energy specializes in logistics, ship chartering, and oil trading. We provide high-quality and cost-effective solutions for the transportation of goods and oil products across the Black and Caspian seas.';
-$lang['how_begin'] = 'How Did Vertex Energy Begin?';
-$lang['how_begin_body'] = 'Vertex Energy was founded in 2023 by a team of experienced professionals in the maritime industry. Starting as a small company, we\'ve grown into a reputable and trusted company, serving a wide range of clients from small businesses to large corporations.';
-$lang['what_services'] = 'What Services Does Vertex Energy Offer?';
-$lang['what_services_body'] = 'Vertex Energy offers a comprehensive range of services for transporting goods and oil products across the Black and Caspian seas. Our services include logistics, ship chartering, and oil trading, with a focus on delivering value through professionalism, integrity, and innovation.';
-$lang['how_quality'] = 'How Does Vertex Energy Ensure Quality and Efficiency?';
-$lang['how_quality_body'] = 'Vertex Energy is committed to maintaining quality and efficiency in all our operations. We use state-of-the-art technology and equipment, comply with international standards and regulations, and have a qualified and dedicated staff to ensure safety and efficiency.';
-$lang['how_contact'] = 'How Can You Get in Touch with Vertex Energy?';
-$lang['how_contact_body'] = 'If you\'re interested in our services or have any questions, please feel free to contact us. You can reach us by phone, email, or through our website, and we look forward to hearing from you and working with you.';
+$lang['faq_q_specialize'] = 'What Does Vertex Energy Specialize In?';
+$lang['faq_a_specialize'] = '<strong>Vertex Energy</strong> specializes in oil trading — primarily <b>fuel oil</b> and <b>bitumen</b> — supported by in-house logistics and ship chartering.<br>We operate across the <b>Black Sea</b>, <b>Caspian region</b>, the <b>Middle East</b>, and <b>Asia (including China)</b>. Our focus is to deliver <strong>transparent, reliable, and competitive energy solutions</strong> under international standards.';
+$lang['faq_q_begin'] = 'How Did Vertex Energy Begin?';
+$lang['faq_a_begin'] = '<strong>Vertex Energy</strong> was founded in <b>2024</b> as an independent oil trading company.<br>From the start, our goal was to build a <strong>trusted platform</strong> for energy flows between the Black Sea, Caspian, and Asian markets. Today we work with refineries, terminals, and shipping partners to ensure <strong>safe and efficient product deliveries worldwide</strong>.';
+$lang['faq_q_services'] = 'What Services Does Vertex Energy Offer?';
+$lang['faq_a_services'] = [
+    '<strong>Oil trading</strong> on <b>FOB</b> and <b>CIF</b> terms',
+    '<strong>Maritime logistics</strong> & <strong>ship chartering</strong>',
+    '<strong>Customs clearance</strong> & documentation'
+];
+$lang['faq_q_quality'] = 'How Does Vertex Energy Ensure Quality and Efficiency?';
+$lang['faq_a_quality_list'] = [
+    'International standards & compliance (KYC/AML, trade regulations)',
+    'Independent inspection at load and discharge ports',
+    'Professional risk management for contracts and logistics',
+    'Experienced team with market knowledge in trading and shipping'
+];
+$lang['faq_a_quality_text'] = 'This guarantees <strong>quality, safety, and efficiency</strong> in every deal.';
+$lang['faq_q_contact'] = 'How Can You Get in Touch with Vertex Energy?';
+$lang['faq_a_contact'] = [
+    '📞 <strong>Phone / WhatsApp:</strong> ‪+971 58 567 1088‬',
+    '📧 <strong>Email:</strong> office@vertexenergy.az',
+    '🌐 <strong>Website:</strong> vertexenergy.az'
+];
+$lang['faq_a_contact_text'] = 'We look forward to building <strong>strong and long-term partnerships</strong>.';
 $lang['partner_in_oil_markets'] = 'Your Partner in Oil Markets.';
 $lang['trading_description_1'] = 'Vertex Energy specializes in trading refined oil products, primarily fuel oil and bitumen, with flows across the Black Sea, Caspian region, and Asia';
 $lang['trading_description_2'] = 'We structure deals under FOB and CIF terms, supported by international surveyors (SGS, Intertek)..';

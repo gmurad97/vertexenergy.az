@@ -31,42 +31,153 @@
     <div class="container">
         <section class="section">
             <div class="faq">
-                <?php $faq_items = [
-                    ['title' => 'what_specialize', 'body' => 'what_specialize_body'],
-                    ['title' => 'how_begin', 'body' => 'how_begin_body'],
-                    ['title' => 'what_services', 'body' => 'what_services_body'],
-                    ['title' => 'how_quality', 'body' => 'how_quality_body'],
-                    ['title' => 'how_contact', 'body' => 'how_contact_body'],
-                ]; ?>
-                <?php foreach ($faq_items as $item): ?>
-                    <div class="faq__block">
-                        <div class="faq__minimazed-detail">
-                            <div class="faq__minimazed-detail-header">
-                                <h1 class="faq__minimazed-detail-header--title">
-                                    <?= $this->lang->line($item['title']) ?>
-                                </h1>
-                                <button type="button" class="faq__minimazed-detail-header--button">
-                                    <i class="fas fa-arrow-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="faq__maximized-detail">
-                            <div class="faq__maximized-detail-header">
-                                <h1 class="faq__maximized-detail-header--title">
-                                    <?= $this->lang->line($item['title']) ?>
-                                </h1>
-                                <button type="button" class="faq__maximized-detail-header--button">
-                                    <i class="fas fa-arrow-right"></i>
-                                </button>
-                            </div>
-                            <div class="faq__maximized-detail-body">
-                                <p class="faq__maximized-detail-body--description">
-                                    <?= $this->lang->line($item['body']) ?>
-                                </p>
-                            </div>
+                <div class="faq__block">
+                    <div class="faq__minimazed-detail">
+                        <div class="faq__minimazed-detail-header">
+                            <h1 class="faq__minimazed-detail-header--title">
+                                <?= $this->lang->line('faq_q_specialize') ?>
+                            </h1>
+                            <button type="button" class="faq__minimazed-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
                         </div>
                     </div>
-                <?php endforeach; ?>
+                    <div class="faq__maximized-detail">
+                        <div class="faq__maximized-detail-header">
+                            <h1 class="faq__maximized-detail-header--title">
+                                <?= $this->lang->line('faq_q_specialize') ?>
+                            </h1>
+                            <button type="button" class="faq__maximized-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="faq__maximized-detail-body">
+                            <p class="faq__maximized-detail-body--description">
+                                <?= $this->lang->line('faq_a_specialize') ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq__block">
+                    <div class="faq__minimazed-detail">
+                        <div class="faq__minimazed-detail-header">
+                            <h1 class="faq__minimazed-detail-header--title">
+                                <?= $this->lang->line('faq_q_begin') ?>
+                            </h1>
+                            <button type="button" class="faq__minimazed-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="faq__maximized-detail">
+                        <div class="faq__maximized-detail-header">
+                            <h1 class="faq__maximized-detail-header--title">
+                                <?= $this->lang->line('faq_q_begin') ?>
+                            </h1>
+                            <button type="button" class="faq__maximized-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="faq__maximized-detail-body">
+                            <p class="faq__maximized-detail-body--description">
+                                <?= $this->lang->line('faq_a_begin') ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq__block">
+                    <div class="faq__minimazed-detail">
+                        <div class="faq__minimazed-detail-header">
+                            <h1 class="faq__minimazed-detail-header--title">
+                                <?= $this->lang->line('faq_q_services') ?>
+                            </h1>
+                            <button type="button" class="faq__minimazed-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="faq__maximized-detail">
+                        <div class="faq__maximized-detail-header">
+                            <h1 class="faq__maximized-detail-header--title">
+                                <?= $this->lang->line('faq_q_services') ?>
+                            </h1>
+                            <button type="button" class="faq__maximized-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="faq__maximized-detail-body">
+                            <ul class="faq__maximized-detail-body--description">
+                                <?php foreach ($this->lang->line('faq_a_services') as $service): ?>
+                                    <li><?= $service ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq__block">
+                    <div class="faq__minimazed-detail">
+                        <div class="faq__minimazed-detail-header">
+                            <h1 class="faq__minimazed-detail-header--title">
+                                <?= $this->lang->line('faq_q_quality') ?>
+                            </h1>
+                            <button type="button" class="faq__minimazed-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="faq__maximized-detail">
+                        <div class="faq__maximized-detail-header">
+                            <h1 class="faq__maximized-detail-header--title">
+                                <?= $this->lang->line('faq_q_quality') ?>
+                            </h1>
+                            <button type="button" class="faq__maximized-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="faq__maximized-detail-body">
+                            <ul class="faq__maximized-detail-body--description">
+                                <?php foreach ($this->lang->line('faq_a_quality_list') as $item): ?>
+                                    <li><?= $item ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                            <p class="faq__maximized-detail-body--description">
+                                <?= $this->lang->line('faq_a_quality_text') ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq__block">
+                    <div class="faq__minimazed-detail">
+                        <div class="faq__minimazed-detail-header">
+                            <h1 class="faq__minimazed-detail-header--title">
+                                <?= $this->lang->line('faq_q_contact') ?>
+                            </h1>
+                            <button type="button" class="faq__minimazed-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="faq__maximized-detail">
+                        <div class="faq__maximized-detail-header">
+                            <h1 class="faq__maximized-detail-header--title">
+                                <?= $this->lang->line('faq_q_contact') ?>
+                            </h1>
+                            <button type="button" class="faq__maximized-detail-header--button">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="faq__maximized-detail-body">
+                            <ul class="faq__maximized-detail-body--description">
+                                <?php foreach ($this->lang->line('faq_a_contact') as $contact): ?>
+                                    <li><?= $contact ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                            <p class="faq__maximized-detail-body--description">
+                                <?= $this->lang->line('faq_a_contact_text') ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>

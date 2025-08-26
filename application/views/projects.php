@@ -20,7 +20,6 @@
                                 <?= $this->lang->line('project_portfolio_description') ?>
                             </p>
                         </div>
-
                     </div>
                 </div>
             </div>

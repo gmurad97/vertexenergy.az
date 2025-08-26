@@ -70,35 +70,6 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="section__heading">
-            <h1 class="section__heading--category"><?= $this->lang->line('our_partners') ?></h1>
-            <p class="section__heading--title"><?= $this->lang->line('in_partnership') ?></p>
-        </div>
-        <div class="owl-carousel" id="owl-carousel-partners">
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/anika_solutions.png'); ?>" alt="Anika Solutions">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/consulting_service_association.png'); ?>" alt="Consulting Service Association">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/socar.png'); ?>" alt="Socar">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/encor.png'); ?>" alt="Encor">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/fuel_solutions.png'); ?>" alt="Fuel Solutions">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/sumgait_ashgarlar.png'); ?>" alt="Sumgait Ashgarlar">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/unibros_prime_energy.png'); ?>" alt="Unibros Prime Energy">
-            </div>
-        </div>
-    </section>
 </main>
 <?php $this->load->view("partials/_footer.php"); ?>
 <?php $this->load->view("partials/_scripts.php"); ?>
