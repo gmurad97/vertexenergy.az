@@ -2,7 +2,7 @@
 <header class="header">
     <div class="header__block-global">
         <div class="image-block">
-            <img src="<?= base_url('public/assets/content/img/trading1.jpg'); ?>" alt="Trading1">
+            <img src="<?= base_url('public/assets/content/img/shipping.jpg'); ?>" alt="Shipping">
         </div>
         <div class="content-block-global">
             <?php $this->load->view("partials/_navbar.php"); ?>

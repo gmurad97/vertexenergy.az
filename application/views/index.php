@@ -90,7 +90,7 @@
                                 <img class="services__icon-block--img" src="<?= base_url('public/assets/content/img/icon/ship.svg'); ?>" alt="Shipping">
                             </div>
                             <div class="services__heading-block">
-                                <a href="shipping.html" class="services__heading-block--title"><?= $this->lang->line('service_shipping_title') ?></a>
+                                <a href="<?= base_url('shipping'); ?>" class="services__heading-block--title"><?= $this->lang->line('service_shipping_title') ?></a>
                                 <p class="services__heading-block--description">
                                     <?= $this->lang->line('service_shipping_desc') ?>
                                 </p>
@@ -104,7 +104,7 @@
                                 <img class="services__icon-block--img" src="<?= base_url('public/assets/content/img/icon/trading.svg'); ?>" alt="Trading">
                             </div>
                             <div class="services__heading-block">
-                                <a href="trading.html" class="services__heading-block--title"><?= $this->lang->line('service_trading_title') ?></a>
+                                <a href="<?= base_url('trading'); ?>" class="services__heading-block--title"><?= $this->lang->line('service_trading_title') ?></a>
                                 <p class="services__heading-block--description">
                                     <?= $this->lang->line('service_trading_desc') ?>
                                 </p>
@@ -118,7 +118,7 @@
                                 <img class="services__icon-block--img" src="<?= base_url('public/assets/content/img/icon/projects.svg'); ?>" alt="Projects">
                             </div>
                             <div class="services__heading-block">
-                                <a href="projects.html" class="services__heading-block--title"><?= $this->lang->line('service_projects_title') ?></a>
+                                <a href="<?= base_url('projects'); ?>" class="services__heading-block--title"><?= $this->lang->line('service_projects_title') ?></a>
                                 <p class="services__heading-block--description">
                                     <?= $this->lang->line('service_projects_desc') ?>
                                 </p>
@@ -143,7 +143,7 @@
                                 <img src="<?= base_url('public/assets/content/img/trading1.jpg'); ?>" alt="Trading">
                             </div>
                             <div class="components-block__head">
-                                <a href="trading.html" class="components-block__head--link">
+                                <a href="<?= base_url('trading'); ?>" class="components-block__head--link">
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -165,7 +165,7 @@
                                 <img src="<?= base_url('public/assets/content/img/ship2.jpg'); ?>" alt="Ship">
                             </div>
                             <div class="components-block__head">
-                                <a href="shipping.html" class="components-block__head--link">
+                                <a href="<?= base_url('shipping'); ?>" class="components-block__head--link">
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
