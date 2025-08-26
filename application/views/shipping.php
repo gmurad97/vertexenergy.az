@@ -17,51 +17,11 @@
                                 Maritime Logistics & Ship Chartering
                             </h2>
                             <p class="description-block-global__heading--description">
-                                Vertex Energy provides reliable shipping solutions for oil products across the Black and Caspian regions, supported by trusted partners and a strong logistics network.
+                                Vertex Energy provides reliable shipping solutions for
+                                oil products across the Black and Caspian regions, supported
+                                by trusted partners and a strong logistics network.
                             </p>
                         </div>
-                        <!-- <div class="description-block-global__content">
-                                <ul class="description-block-global__content-menu">
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 001
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 002
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 003
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class="description-block-global__content-menu">
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 001
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 002
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 003
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> -->
                     </div>
                 </div>
             </div>
@@ -69,79 +29,75 @@
     </div>
 </header>
 <main class="main">
-    <section>
-        Services
-        Our shipping services include:
-        <ul>
-            <li>•Ship chartering — spot, voyage and time charter</li>
-            <li>•Cargo handling — port coordination, loading & discharge supervision</li>
-            <li>•Customs & documentation — BL, LOI, insurance support</li>
-            <li>•Risk control — laytime & demurrage optimization, P&I coordination</li>
-        </ul>
-
-
-    </section>
-    <section>
-        <div class="container my-5">
-            3️⃣ География
-            Main shipping routes
-            <ul>
-                <li>Caspian Sea: Baku ↔ Aktau / Turkmenbashi</li>
-                <li>
-                    Black Sea: Batumi / Poti ↔ Samsun / Novorossiysk
-                </li>
-                <li>Middle East: Basra ↔ Mersin / Ceyhan</li>
-            </ul>
+    <section class="section">
+        <div class="section__heading">
+            <h1 class="section__heading--category">- Services</h1>
+            <p class="section__heading--title">Our shipping services include:</p>
         </div>
-
-    </section>
-
-
-    <section>
-        <div class="container my-5">
-            4 Compliance
-            <ul>
-                <li> All operations are handled in line with international maritime standards, ensuring safety, efficiency, and transparency.</li>
-            </ul>
+        <div class="services-column">
+            <div class="service-card">
+                <span class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M3 20h18l-2-7H5l-2 7zM5 13h14l-2-6H7l-2 6z" />
+                    </svg>
+                </span>
+                <p class="service-text">Ship chartering — spot, voyage and time charter</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <rect x="3" y="7" width="18" height="13" rx="2" ry="2" />
+                        <path d="M16 3h-8v4h8V3z" />
+                    </svg>
+                </span>
+                <p class="service-text">Cargo handling — port coordination, loading & discharge supervision</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 20h9" />
+                        <path d="M12 4h9" />
+                        <rect x="3" y="4" width="6" height="16" rx="1" />
+                    </svg>
+                </span>
+                <p class="service-text">Customs & documentation — BL, LOI, insurance support</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                </span>
+                <p class="service-text">Risk control — laytime & demurrage optimization, P&amp;I coordination</p>
+            </div>
         </div>
-
     </section>
     <section class="section">
         <div class="section__heading">
             <h1 class="section__heading--category">- Our Partners</h1>
             <p class="section__heading--title">In Partnership with Many Companies</p>
         </div>
-
         <div class="owl-carousel" id="owl-carousel-partners">
-            <!-- <div class="item">
-                    <img src="<?= base_url('public/assets/content/img/partners/mislton.png'); ?>" alt="Mislton">
-                </div> -->
-            <!-- <div class="item">
-                    <img src="<?= base_url('public/assets/content/img/partners/green_line_shipping.png'); ?>" alt="Green_Line_Shipping">
-                </div> -->
-            <!-- <div class="item">
-                    <img src="<?= base_url('public/assets/content/img/partners/muzn_energy.png'); ?>" alt="Muzn_Energy">
-                </div> -->
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/anika_solutions.png'); ?>" alt="Anika Solutions">
+            </div>
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/consulting_service_association.png'); ?>" alt="Consulting Service Association">
+            </div>
             <div class="item">
                 <img src="<?= base_url('public/assets/content/img/partners/socar.png'); ?>" alt="Socar">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/anika.jpg'); ?>" alt="Socar">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/consul.jpg'); ?>" alt="Socar">
             </div>
             <div class="item">
                 <img src="<?= base_url('public/assets/content/img/partners/encor.png'); ?>" alt="Encor">
             </div>
             <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/fuel_solutions.png'); ?>" alt="Fuel_Solutions">
+                <img src="<?= base_url('public/assets/content/img/partners/fuel_solutions.png'); ?>" alt="Fuel Solutions">
             </div>
             <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/sumgait_ashgarlar.png'); ?>" alt="Sumgait_Ashgarlar">
+                <img src="<?= base_url('public/assets/content/img/partners/sumgait_ashgarlar.png'); ?>" alt="Sumgait Ashgarlar">
             </div>
             <div class="item">
-                <img src="<?= base_url('public/assets/content/img/partners/unibros_prime_energy.png'); ?>" alt="Unibros_Prime_Energy">
+                <img src="<?= base_url('public/assets/content/img/partners/unibros_prime_energy.png'); ?>" alt="Unibros Prime Energy">
             </div>
         </div>
     </section>

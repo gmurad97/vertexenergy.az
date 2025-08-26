@@ -24,48 +24,7 @@
                                 to professionalism, integrity, and innovation.
                             </p>
                         </div>
-                        <!-- <div class="description-block-global__content">
-                                <ul class="description-block-global__content-menu">
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 001
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 002
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 003
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class="description-block-global__content-menu">
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 001
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 002
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 003
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> -->
+
                     </div>
                 </div>
             </div>

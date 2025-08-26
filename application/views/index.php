@@ -53,23 +53,17 @@
                         </div>
                         <div class="description-block-secondary__body">
                             <p class="description-block-secondary__body--description">
-                                <strong>Vertex Energy</strong>, founded in 2024, is an independent oil trading company operating across the Black Sea, Caspian region, and Asian markets. Our mission is to provide reliable, transparent, and competitive energy solutions — from sourcing and sales to shipping and delivery
-                                <br><br>
+                                <strong>Vertex Energy</strong>, founded in 2024, is an independent oil trading company operating across the Black Sea, Caspian region, and Asian markets. Our mission is to provide reliable, transparent, and competitive energy solutions — from sourcing and sales to shipping and delivery.
+                            </p>
+                            <p class="description-block-secondary__body--description">
                                 Established with a clear focus on oil trading, Vertex Energy has grown into a dynamic market player, partnering with refineries, terminals, and shipping companies to ensure safe and efficient flows of energy products.
-                                <br><br>
+                            </p>
+                            <p class="description-block-secondary__body--description">
                                 Our services extend beyond trading: we manage maritime logistics, ship chartering, cargo insurance, and customs documentation. By combining trading expertise with operational excellence, Vertex Energy delivers clients a seamless experience — from contract signing to final discharge.
-                                <br><br>
+                            </p>
+                            <p class="description-block-secondary__body--description">
                                 With a strong commitment to integrity, safety, and efficiency, we strive to be the partner of choice for businesses seeking dependable energy solutions. Let’s move energy forward, together.
                             </p>
-                            <!-- <p class="description-block-secondary__body--description">
-                                    Our comprehensive services cover all aspects of logistics,
-                                    from planning to documentation. We also offer value-added services
-                                    like cargo insurance, warehousing, and customs brokerage.
-                                    With a dedicated team and a commitment to safety, efficiency,
-                                    and quality, we're here to exceed your expectations.
-                                    Contact us today via phone, email, or our website,
-                                    and let's work together."
-                                </p> -->
                         </div>
                     </div>
                     <div class="description-block-secondary__img">

@@ -2,7 +2,7 @@
 <header class="header">
     <div class="header__block-global">
         <div class="image-block">
-            <img src="<?= base_url('public/assets/content/img/trading1.jpg'); ?>" alt="Trading1">
+            <img src="<?= base_url('public/assets/content/img/trading2.jpg'); ?>" alt="Trading2">
         </div>
         <div class="content-block-global">
             <?php $this->load->view("partials/_navbar.php"); ?>
@@ -11,61 +11,16 @@
                     <div class="description-block-global__text-block">
                         <div class="description-block-global__heading">
                             <h1 class="description-block-global__heading--title-small">
-                                - Trading
+                                - FAQ
                             </h1>
                             <h2 class="description-block-global__heading--title-large">
-                                Your Partner in Oil Markets.
+                                Frequently Asked Questions
                             </h2>
                             <p class="description-block-global__heading--description">
-                                Our mission is to provide high-quality and cost-effective
-                                solutions for the transportation of goods and oil products
-                                across the Black and Caspian seas. We aim to deliver value
-                                to our customers, partners, and employees through our
-                                professionalism, integrity, and innovation.
+                                Here you can find answers to the most common questions about our services, processes,
+                                and partnerships. If you don’t see your question here, feel free to reach out to us directly.
                             </p>
                         </div>
-                        <!-- <div class="description-block-global__content">
-                                <ul class="description-block-global__content-menu">
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 001
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 002
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Trading 003
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class="description-block-global__content-menu">
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 001
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 002
-                                        </a>
-                                    </li>
-                                    <li class="content-menu__item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <a href="#" class="content-menu__link">
-                                            Preference 003
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> -->
                     </div>
                 </div>
             </div>

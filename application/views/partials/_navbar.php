@@ -9,19 +9,29 @@
             <div class="navbar__menu">
                 <ul class="navbar__list">
                     <li class="navbar__item" tabindex="0">
-                        <a href="<?= base_url(''); ?>" class="navbar__link <?= set_active_class(['home', ''], false, 'navbar__link--active'); ?>">Home</a>
+                        <a href="<?= base_url(''); ?>" class="navbar__link <?= set_active_class(['home', ''], false, 'navbar__link--active'); ?>">
+                            <?= $this->lang->line('navbar_home'); ?>
+                        </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="<?= base_url('trading'); ?>" class="navbar__link <?= set_active_class(['trading'], false, 'navbar__link--active'); ?>">Trading</a>
+                        <a href="<?= base_url('trading'); ?>" class="navbar__link <?= set_active_class(['trading'], false, 'navbar__link--active'); ?>">
+                            <?= $this->lang->line('navbar_trading'); ?>
+                        </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="<?= base_url('shipping'); ?>" class="navbar__link <?= set_active_class(['shipping'], false, 'navbar__link--active'); ?>">Shipping</a>
+                        <a href="<?= base_url('shipping'); ?>" class="navbar__link <?= set_active_class(['shipping'], false, 'navbar__link--active'); ?>">
+                            <?= $this->lang->line('navbar_shipping'); ?>
+                        </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="<?= base_url('projects'); ?>" class="navbar__link <?= set_active_class(['projects'], false, 'navbar__link--active'); ?>">Projects</a>
+                        <a href="<?= base_url('projects'); ?>" class="navbar__link <?= set_active_class(['projects'], false, 'navbar__link--active'); ?>">
+                            <?= $this->lang->line('navbar_projects'); ?>
+                        </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="<?= base_url('faq'); ?>" class="navbar__link <?= set_active_class(['faq'], false, 'navbar__link--active'); ?>">FAQ</a>
+                        <a href="<?= base_url('faq'); ?>" class="navbar__link <?= set_active_class(['faq'], false, 'navbar__link--active'); ?>">
+                            <?= $this->lang->line('navbar_faq'); ?>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -31,13 +41,13 @@
             <div class="language">
                 <ul class="language__list">
                     <li class="language__item">
-                        <a class="language__link" href="<?= base_url('locale/en'); ?>">
+                        <a class="language__link" href="<?= base_url('locale/az'); ?>">
                             <img class="language__img" src="<?= base_url('public/assets/langs/az.svg'); ?>" alt="AZ">
                         </a>
                     </li>
                     <li class="language__item">
                         <a class="language__link" href="<?= base_url('locale/ru'); ?>">
-                            <img class="language__img" class="language__img" src="<?= base_url('public/assets/langs/ru.svg'); ?>" alt="RU">
+                            <img class="language__img" src="<?= base_url('public/assets/langs/ru.svg'); ?>" alt="RU">
                         </a>
                     </li>
                     <li class="language__item">
