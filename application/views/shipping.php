@@ -1,66 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vertex Energy - Shipping</title>
-    <link rel="shortcut icon" href="assets/content/img/logo/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-    <header class="header">
-        <div class="header__block-global">
-            <div class="image-block">
-                <img src="assets/content/img/trading1.jpg" alt="Trading1">
-            </div>
-            <div class="content-block-global">
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar__content">
-                            <div class="navbar__logo">
-                                <a href="index.html">
-                                    <img src="assets/content/img/logo/logo.png" alt="Logo">
-                                </a>
-                            </div>
-                            <div class="navbar__menu">
-                                <ul class="navbar__list">
-                                    <li class="navbar__item" tabindex="0">
-                                        <a href="index.html" class="navbar__link">Home</a>
-                                    </li>
-                                    <li class="navbar__item">
-                                        <a href="trading.html" class="navbar__link">Trading</a>
-                                    </li>
-                                    <li class="navbar__item">
-                                        <a href="shipping.html" class="navbar__link--active">Shipping</a>
-                                    </li>
-                                    <li class="navbar__item">
-                                        <a href="projects.html" class="navbar__link">Projects</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="navbar__phone">
-                                <a href="tel:+971585671088" class="navbar__phone--link">+971 58 567 1088</a>
-                            </div>
+<?php $this->load->view("partials/_head.php"); ?>
+<header class="header">
+    <div class="header__block-global">
+        <div class="image-block">
+            <img src="<?= base_url('public/assets/content/img/trading1.jpg'); ?>" alt="Trading1">
+        </div>
+        <div class="content-block-global">
+            <?php $this->load->view("partials/_navbar.php"); ?>
+            <div class="description-block-global">
+                <div class="container">
+                    <div class="description-block-global__text-block">
+                        <div class="description-block-global__heading">
+                            <h1 class="description-block-global__heading--title-small">
+                                - Shipping
+                            </h1>
+                            <h2 class="description-block-global__heading--title-large">
+                                Maritime Logistics & Ship Chartering
+                            </h2>
+                            <p class="description-block-global__heading--description">
+                                Vertex Energy provides reliable shipping solutions for oil products across the Black and Caspian regions, supported by trusted partners and a strong logistics network.
+                            </p>
                         </div>
-                    </div>
-                </nav>
-                <div class="description-block-global">
-                    <div class="container">
-                        <div class="description-block-global__text-block">
-                            <div class="description-block-global__heading">
-                                <h1 class="description-block-global__heading--title-small">
-                                    - Shipping
-                                </h1>
-                                <h2 class="description-block-global__heading--title-large">
-                                    Maritime Logistics & Ship Chartering
-                                </h2>
-                                <p class="description-block-global__heading--description">
-                                    Vertex Energy provides reliable shipping solutions for oil products across the Black and Caspian regions, supported by trusted partners and a strong logistics network.
-                                </p>
-                            </div>
-                            <!-- <div class="description-block-global__content">
+                        <!-- <div class="description-block-global__content">
                                 <ul class="description-block-global__content-menu">
                                     <li class="content-menu__item">
                                         <i class="fa-solid fa-check"></i>
@@ -102,202 +62,90 @@
                                     </li>
                                 </ul>
                             </div> -->
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <main class="main">
-        <section>
-            Services
-            Our shipping services include:
+    </div>
+</header>
+<main class="main">
+    <section>
+        Services
+        Our shipping services include:
+        <ul>
+            <li>•Ship chartering — spot, voyage and time charter</li>
+            <li>•Cargo handling — port coordination, loading & discharge supervision</li>
+            <li>•Customs & documentation — BL, LOI, insurance support</li>
+            <li>•Risk control — laytime & demurrage optimization, P&I coordination</li>
+        </ul>
+
+
+    </section>
+    <section>
+        <div class="container my-5">
+            3️⃣ География
+            Main shipping routes
             <ul>
-                <li>•Ship chartering — spot, voyage and time charter</li>
-                <li>•Cargo handling — port coordination, loading & discharge supervision</li>
-                <li>•Customs & documentation — BL, LOI, insurance support</li>
-                <li>•Risk control — laytime & demurrage optimization, P&I coordination</li>
+                <li>Caspian Sea: Baku ↔ Aktau / Turkmenbashi</li>
+                <li>
+                    Black Sea: Batumi / Poti ↔ Samsun / Novorossiysk
+                </li>
+                <li>Middle East: Basra ↔ Mersin / Ceyhan</li>
             </ul>
+        </div>
+
+    </section>
 
 
-        </section>
-        <section>
-            <div class="container my-5">
-                3️⃣ География
-                Main shipping routes
-                <ul>
-                    <li>Caspian Sea: Baku ↔ Aktau / Turkmenbashi</li>
-                    <li>
-                        Black Sea: Batumi / Poti ↔ Samsun / Novorossiysk
-                    </li>
-                    <li>Middle East: Basra ↔ Mersin / Ceyhan</li>
-                </ul>
-            </div>
+    <section>
+        <div class="container my-5">
+            4 Compliance
+            <ul>
+                <li> All operations are handled in line with international maritime standards, ensuring safety, efficiency, and transparency.</li>
+            </ul>
+        </div>
 
-        </section>
+    </section>
+    <section class="section">
+        <div class="section__heading">
+            <h1 class="section__heading--category">- Our Partners</h1>
+            <p class="section__heading--title">In Partnership with Many Companies</p>
+        </div>
 
-
-        <section>
-            <div class="container my-5">
-                4 Compliance
-                <ul>
-                    <li> All operations are handled in line with international maritime standards, ensuring safety, efficiency, and transparency.</li>
-                </ul>
-            </div>
-
-        </section>
-        <section class="section">
-            <div class="section__heading">
-                <h1 class="section__heading--category">- Our Partners</h1>
-                <p class="section__heading--title">In Partnership with Many Companies</p>
-            </div>
-
-            <div class="owl-carousel" id="owl-carousel-partners">
-                <!-- <div class="item">
-                    <img src="assets/content/img/partners/mislton.png" alt="Mislton">
+        <div class="owl-carousel" id="owl-carousel-partners">
+            <!-- <div class="item">
+                    <img src="<?= base_url('public/assets/content/img/partners/mislton.png'); ?>" alt="Mislton">
                 </div> -->
-                <!-- <div class="item">
-                    <img src="assets/content/img/partners/green_line_shipping.png" alt="Green_Line_Shipping">
+            <!-- <div class="item">
+                    <img src="<?= base_url('public/assets/content/img/partners/green_line_shipping.png'); ?>" alt="Green_Line_Shipping">
                 </div> -->
-                <!-- <div class="item">
-                    <img src="assets/content/img/partners/muzn_energy.png" alt="Muzn_Energy">
+            <!-- <div class="item">
+                    <img src="<?= base_url('public/assets/content/img/partners/muzn_energy.png'); ?>" alt="Muzn_Energy">
                 </div> -->
-                <div class="item">
-                    <img src="assets/content/img/partners/socar.png" alt="Socar">
-                </div>
-                <div class="item">
-                    <img src="assets/content/img/partners/anika.jpg" alt="Socar">
-                </div>
-                <div class="item">
-                    <img src="assets/content/img/partners/consul.jpg" alt="Socar">
-                </div>
-                <div class="item">
-                    <img src="assets/content/img/partners/encor.png" alt="Encor">
-                </div>
-                <div class="item">
-                    <img src="assets/content/img/partners/fuel_solutions.png" alt="Fuel_Solutions">
-                </div>
-                <div class="item">
-                    <img src="assets/content/img/partners/sumgait_ashgarlar.png" alt="Sumgait_Ashgarlar">
-                </div>
-                <div class="item">
-                    <img src="assets/content/img/partners/unibros_prime_energy.png" alt="Unibros_Prime_Energy">
-                </div>
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/socar.png'); ?>" alt="Socar">
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__contact">
-                    <a href="https://maps.app.goo.gl/toYM1UgPT7K5RdYU9" target="_blank" class="footer__contact-block">
-                        <div class="footer__contact-block-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="footer__contact-block-info">
-                            <h1 class="footer__contact-block-info--title">
-                                Full Address
-                            </h1>
-                            <p class="footer__contact-block-info--description">
-                                Business Center 1, M Floor,The Meydan Hotel, Nad Al Sheba,Dubai, U.A.E.
-                            </p>
-                        </div>
-                    </a>
-                    <a href="tel:+971585671088" class="footer__contact-block">
-                        <div class="footer__contact-block-icon">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="footer__contact-block-info">
-                            <h1 class="footer__contact-block-info--title">
-                                Number Phone
-                            </h1>
-                            <p class="footer__contact-block-info--description">
-                                +971 58 567 1088
-                            </p>
-                        </div>
-                    </a>
-                    <a href="mailto:office@vertexenergy.az" class="footer__contact-block">
-                        <div class="footer__contact-block-icon">
-                            <i class="fas fa-at"></i>
-                        </div>
-                        <div class="footer__contact-block-info">
-                            <h1 class="footer__contact-block-info--title">
-                                Email
-                            </h1>
-                            <p class="footer__contact-block-info--description">
-                                office@vertexenergy.az
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="footer__nav">
-                    <div class="footer__nav-about">
-                        <h1 class="footer__nav-about--title">
-                            <strong>Vertex Energy</strong>
-                        </h1>
-                        <p class="footer__nav-about--description">
-                            Vertex Energy, founded in 2023, is your trusted partner in
-                            maritime logistics, ship chartering, and oil trading.
-                            Our mission is to provide high-quality and cost-effective solutions
-                            for transporting goods and oil products across the
-                            Black and Caspian seas. We've grown from a small company to
-                            a respected industry player, serving a diverse clientele, from small
-                            businesses to large corporations.
-                        </p>
-                    </div>
-                    <div class="footer__nav-navigation">
-                        <div class="footer__nav-navigation--navbar">
-                            <h1 class="footer__nav-navigation--title">Navigation</h1>
-                            <ul class="footer__nav-menu">
-                                <li class="footer__nav-menu--item">
-                                    <a href="index.html" class="footer__nav-menu--link">Home</a>
-                                </li>
-                                <li class="footer__nav-menu--item">
-                                    <a href="trading.html" class="footer__nav-menu--link">Trading</a>
-                                </li>
-                                <li class="footer__nav-menu--item">
-                                    <a href="shipping.html" class="footer__nav-menu--link footer__nav-menu--link-active">Shipping</a>
-                                </li>
-                                <li class="footer__nav-menu--item">
-                                    <a href="projects.html" class="footer__nav-menu--link">Projects</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="footer__nav-navigation--social">
-                            <div class="footer__nav-social">
-                                <a href="#" class="footer__nav-social-icon">
-                                    <i class="fa-brands fa-x-twitter"></i>
-                                </a>
-                                <a href="#" class="footer__nav-social-icon">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="#" class="footer__nav-social-icon">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/anika.jpg'); ?>" alt="Socar">
+            </div>
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/consul.jpg'); ?>" alt="Socar">
+            </div>
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/encor.png'); ?>" alt="Encor">
+            </div>
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/fuel_solutions.png'); ?>" alt="Fuel_Solutions">
+            </div>
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/sumgait_ashgarlar.png'); ?>" alt="Sumgait_Ashgarlar">
+            </div>
+            <div class="item">
+                <img src="<?= base_url('public/assets/content/img/partners/unibros_prime_energy.png'); ?>" alt="Unibros_Prime_Energy">
             </div>
         </div>
-        <div class="footer__bottom">
-            <div class="container">
-                <div class="footer__bottom-copyright">
-                    <p class="footer__bottom-copyright--description">
-                        &copy; 2023 Vertex Energy. All rights reserved.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/plugins/jvectormap/js/jquery.min.js"></script>
-    <script src="assets/plugins/jvectormap/js/jquery-jvectormap-2.0.3.min.js"></script>
-    <script src="assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="assets/js/anime.min.js"></script>
-    <script src="assets/js/fa.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/script.js"></script>
-</body>
+    </section>
+</main>
+<?php $this->load->view("partials/_footer.php"); ?>
+<?php $this->load->view("partials/_scripts.php"); ?>
 
-</html>

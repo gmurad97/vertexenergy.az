@@ -51,23 +51,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
 */
 
 /*<================> System Routes <================>*/
-$route["default_controller"] = "DefaultController";
+$route["default_controller"] = "HomeController";
 $route["404_override"] = "ErrorController";
 $route["translate_uri_dashes"] = false;
 
 /*<================> Language Routes <================>*/
-$route["locale/(:any)"]["GET"] = "user/LanguageController/index/$1";
+$route["locale/(:any)"]["GET"] = "LanguageController/index/$1";
 
 /*<================> User Routes <================>*/
 /*<========> Home Routes <========>*/
-$route[""]["GET"] = "user/HomeController/index";
-$route["home"]["GET"] = "user/HomeController/home";
+$route[""]["GET"] = "HomeController/index";
+$route["home"]["GET"] = "HomeController/home";
 
+/*<========> Projects Routes <========>*/
+$route["projects"]["GET"] = "ProjectsController/index";
 
+/*<========> Shipping Routes <========>*/
+$route["shipping"]["GET"] = "ShippingController/index";
 
+/*<========> Trading Routes <========>*/
+$route["trading"]["GET"] = "TradingController/index";
 
-/*<========> Blog Routes <========>*/
-$route["blog"]["GET"] = "user/BlogController/index";
+/*<========> Faq Routes <========>*/
+$route["faq"]["GET"] = "FaqController/index";
 
-/*<========> Categories Routes <========>*/
-$route["categories"]["GET"] = "user/CategoriesController/index";
